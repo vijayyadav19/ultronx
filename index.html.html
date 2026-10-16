@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Questions and Answers | Q1–Q15</title>
+<style>
+:root{color-scheme:light;--ink:#161616;--muted:#606770;--line:#dedede;--paper:#fff;--bg:#f5f6f8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Arial,Helvetica,sans-serif}
+header{background:#fff;border-bottom:1px solid var(--line);padding:28px 18px}.top{max-width:920px;margin:auto}h1{font-size:clamp(24px,4vw,34px);margin:0 0 6px}header p{margin:0;color:var(--muted)}
+main{max-width:920px;margin:22px auto;padding:0 14px 50px}.toolbar{position:sticky;top:0;z-index:2;background:rgba(245,246,248,.96);padding:12px 0;display:flex;gap:8px;flex-wrap:wrap}
+input{flex:1;min-width:190px;padding:12px;border:1px solid #bfc4cc;border-radius:8px;font-size:16px}button{padding:11px 14px;border:1px solid #333;border-radius:8px;background:#fff;color:#111;font-weight:600;cursor:pointer}
+button:hover{background:#eee}.content{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:clamp(16px,3vw,30px)}
+h2.question{font-weight:400;font-size:22px;line-height:1.35;margin:28px 0 12px;padding-top:18px;border-top:1px solid var(--line)}h2.question:first-child{border-top:0;margin-top:0;padding-top:0}
+h3{font-size:17px;margin:18px 0 6px}p{margin:5px 0;overflow-wrap:anywhere}.hidden{display:none}.note{font-size:13px;color:var(--muted);margin-top:12px}
+@media print{body{background:white}.toolbar{display:none}main{margin:0;max-width:none}.content{border:0;padding:0}h2.question{break-after:avoid}}
+</style></head><body><header><div class="top"><h1>AI Questions and Answers (Q1–Q15)</h1><p>Read, search, select and copy the answers from any device.</p></div></header>
+<main><div class="toolbar"><input id="search" type="search" placeholder="Search questions or answers…" aria-label="Search questions or answers"><button id="copyAll">Copy all text</button><button id="print">Print / Save PDF</button></div>
+<div class="content" id="content"><h2 class="question" id="q-1">Q. No. 2</h2>
+<h2 class="question" id="q-2">Q1. Analyze Expert Systems with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>An Expert System is an AI program that solves problems like a human expert. It uses stored knowledge and rules</p>
+<p>to make decisions. It is used in medical diagnosis, banking, and agriculture.</p>
+<h3>2. Main Components</h3>
+<p>Knowledge Base</p>
+<p>Stores facts and information about a particular subject.</p>
+<p>Contains rules provided by human experts.</p>
+<p>Helps the system find suitable answers.</p>
+<p>Inference Engine</p>
+<p>Applies rules to the available facts.</p>
+<p>Analyzes the information provided by the user.</p>
+<p>Produces a suitable conclusion or solution.</p>
+<p>User Interface</p>
+<p>Allows users to enter questions or information.</p>
+<p>Displays the system&#x27;s answers.</p>
+<p>Makes communication between the user and system easy.</p>
+<p>Explanation Facility</p>
+<p>Explains how the system reached a decision.</p>
+<p>Shows the rules used to produce an answer.</p>
+<p>Helps users understand the recommendation.</p>
+<h3>4. Working</h3>
+<p>The user enters a problem or symptoms.</p>
+<p>The system checks its stored facts and rules.</p>
+<p>The inference engine analyzes the information.</p>
+<p>The system provides a possible solution.</p>
+<h3>5. Example</h3>
+<p>A medical expert system analyzes a patient&#x27;s symptoms. It compares fever and cough with stored medical rules</p>
+<p>and suggests possible causes. A doctor confirms the diagnosis.</p>
+<h3>6. Advantages</h3>
+<p>Gives quick answers.</p>
+<p>Provides consistent decisions.</p>
+<p>Stores expert knowledge.</p>
+<p>Reduces repetitive work.</p>
+<p>Can be available 24/7.</p>
+<h3>7. Disadvantages</h3>
+<p>Costly to develop.</p>
+<p>Requires correct knowledge.</p>
+<p>Cannot easily handle new situations.</p>
+<p>Lacks human judgment.</p>
+<p>May give incorrect results.</p>
+<h3>8. Applications</h3>
+<p>Medical diagnosis</p>
+<p>Banking</p>
+<p>Agriculture</p>
+<p>Equipment troubleshooting</p>
+<p>Customer support</p>
+<h2 class="question" id="q-3">Q2. Demonstrate Minimax Search with an example.</h2>
+<h3>1. Introduction</h3>
+<p>Minimax is an AI search algorithm used in two-player games. It helps select the best move by considering the</p>
+<p>opponent&#x27;s possible moves. MAX tries to get the highest score, while MIN tries to get the lowest score.</p>
+<h3>2. Main Concepts</h3>
+<p>MAX Player</p>
+<p>Tries to maximize the score.</p>
+<p>Selects the largest available value.</p>
+<p>Represents the player trying to win.</p>
+<p>MIN Player</p>
+<p>Tries to minimize the score.</p>
+<p>Selects the smallest available value.</p>
+<p>Represents the opponent.</p>
+<p>Game Tree</p>
+<p>Shows possible moves in a game.</p>
+<p>Contains branches for different choices.</p>
+<p>Helps evaluate possible results.</p>
+<h3>4. Working</h3>
+<p>Create a tree of possible game moves.</p>
+<p>Assign scores to the final states.</p>
+<p>MIN selects the smaller values: 3 and 2.</p>
+<p>MAX selects the higher value, so the answer is 3.</p>
+<h3>5. Example</h3>
+<p>In a game, MAX has two possible moves. The first has a minimum score of 3, and the second has a minimum score</p>
+<p>of 2. MAX selects the first move because 3 is greater than 2.</p>
+<h3>6. Advantages</h3>
+<p>Helps choose the best move.</p>
+<p>Considers opponent moves.</p>
+<p>Useful for strategic games.</p>
+<p>Provides optimal decisions with a correct game tree.</p>
+<p>Can use alpha-beta pruning.</p>
+<h3>7. Disadvantages</h3>
+<p>Requires high computation.</p>
+<p>Large game trees are difficult to search.</p>
+<p>Depends on evaluation scores.</p>
+<p>Can be slow for complex games.</p>
+<p>Not suitable for every problem.</p>
+<h3>8. Applications</h3>
+<p>Chess</p>
+<p>Tic-tac-toe</p>
+<p>Checkers</p>
+<p>Board games</p>
+<p>Game-playing AI</p>
+<h2 class="question" id="q-4">Q3. Determine NLP Basics with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>Natural Language Processing (NLP) is a branch of AI that helps computers understand human languages. It</p>
+<p>processes text and speech to identify meaning and generate responses.</p>
+<h3>2. Main Concepts</h3>
+<p>Tokenization</p>
+<p>Divides a sentence into smaller units.</p>
+<p>These units are usually words or tokens.</p>
+<p>Example: “I like AI” becomes “I”, “like”, “AI”.</p>
+<p>Syntax Analysis</p>
+<p>Checks the grammatical structure of a sentence.</p>
+<p>Identifies nouns, verbs, and other parts of speech.</p>
+<p>Helps determine relationships between words.</p>
+<p>Semantic Analysis</p>
+<p>Identifies the meaning of words and sentences.</p>
+<p>Uses context to understand the message.</p>
+<p>Helps the computer understand what the user means.</p>
+<p>Response Generation</p>
+<p>Produces an answer based on the input.</p>
+<p>Can generate text or speech.</p>
+<p>Is used by chatbots and virtual assistants.</p>
+<h3>4. Working</h3>
+<p>The user enters text or speech.</p>
+<p>NLP divides the input into words and analyzes its structure.</p>
+<p>The system identifies the meaning and intention.</p>
+<p>It generates a suitable response.</p>
+<h3>5. Example</h3>
+<p>A user asks, “What is the weather today?” The system understands that the user wants weather information and</p>
+<p>provides a report using an available weather source.</p>
+<h3>6. Advantages</h3>
+<p>Makes communication easier.</p>
+<p>Processes text quickly.</p>
+<p>Supports language translation.</p>
+<p>Automates customer support.</p>
+<p>Helps analyze large amounts of text.</p>
+<h3>7. Disadvantages</h3>
+<p>May misunderstand context.</p>
+<p>Struggles with sarcasm.</p>
+<p>Regional languages may have limited data.</p>
+<p>Ambiguous words create problems.</p>
+<p>Biased data can affect results.</p>
+<h3>8. Applications</h3>
+<p>Chatbots</p>
+<p>Google Translate</p>
+<p>Voice assistants</p>
+<p>Spam detection</p>
+<p>Sentiment analysis</p>
+<h2 class="question" id="q-5">Q4. Categorize Syntactic and Semantic Processing with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>Syntactic and semantic processing are parts of NLP. Syntactic processing checks sentence structure and grammar.</p>
+<p>Semantic processing identifies the meaning of the sentence.</p>
+<p>Syntactic Processing</p>
+<p>Checks the grammatical structure of a sentence.</p>
+<p>Identifies subjects, verbs, and objects.</p>
+<p>Determines the relationships between words.</p>
+<p>Semantic Processing</p>
+<p>Identifies the meaning of a sentence.</p>
+<p>Uses context to understand words.</p>
+<p>Determines the message the user wants to communicate.</p>
+<h3>5. Working</h3>
+<p>Receive the input sentence.</p>
+<p>Analyze its grammar and word structure.</p>
+<p>Understand the meaning using context.</p>
+<p>Produce an appropriate interpretation.</p>
+<h3>6. Example</h3>
+<p>Sentence: “The boy eats an apple.”</p>
+<p>Syntax identifies “boy” as the subject, “eats” as the verb, and “apple” as the object.</p>
+<p>Semantics understands that the boy is eating an apple.</p>
+<h3>7. Advantages</h3>
+<p>Improves language understanding.</p>
+<p>Helps translate sentences.</p>
+<p>Supports chatbots.</p>
+<p>Helps understand user requests.</p>
+<p>Improves text processing.</p>
+<h3>8. Disadvantages</h3>
+<p>Ambiguous sentences are difficult.</p>
+<p>Grammar varies across languages.</p>
+<p>Context may be missing.</p>
+<p>Idioms can be misunderstood.</p>
+<p>Complex sentences need more processing.</p>
+<h3>9. Applications</h3>
+<p>Translation</p>
+<p>Chatbots</p>
+<p>Grammar checking</p>
+<p>Voice assistants</p>
+<p>Text summarization</p>
+<h2 class="question" id="q-6">Q5. Demonstrate various problems in AI, including their types and characteristics, with</h2>
+<p>real-world examples.</p>
+<h3>1. Introduction</h3>
+<p>AI problems are tasks that require computers to search, learn, reason, plan, or make decisions. Different problems</p>
+<p>need different AI techniques.</p>
+<h3>2. Types of AI Problems</h3>
+<p>Search Problems</p>
+<p>Find a path or solution among many choices.</p>
+<p>Compare different possible options.</p>
+<p>Example: Finding a route using Google Maps.</p>
+<p>Reasoning Problems</p>
+<p>Use facts and rules to reach conclusions.</p>
+<p>Analyze available information.</p>
+<p>Example: A medical system suggesting possible illnesses.</p>
+<p>Learning Problems</p>
+<p>Learn patterns from available data.</p>
+<p>Use previous examples to make predictions.</p>
+<p>Example: Email spam detection.</p>
+<p>Planning Problems</p>
+<p>Decide the steps required to achieve a goal.</p>
+<p>Arrange actions in a suitable order.</p>
+<p>Example: A robot planning its movements.</p>
+<p>Perception Problems</p>
+<p>Understand images, sound, or sensor information.</p>
+<p>Identify objects and patterns.</p>
+<p>Example: Face recognition.</p>
+<p>Optimization Problems</p>
+<p>Find the best solution among alternatives.</p>
+<p>Reduce cost, time, or effort.</p>
+<p>Example: Finding an efficient delivery route.</p>
+<h3>3. Characteristics of AI Problems</h3>
+<p>Large Search Space: Many possible solutions may exist.</p>
+<p>Uncertainty: Information may be incomplete.</p>
+<p>Knowledge Requirement: Facts or rules may be needed.</p>
+<p>Goal-Oriented: The system works toward a target.</p>
+<p>Complexity: Some problems need high computing power.</p>
+<h3>5. Working</h3>
+<p>Define the problem and goal.</p>
+<p>Collect required information.</p>
+<p>Select a suitable AI technique.</p>
+<p>Process the information and generate a solution.</p>
+<h3>6. Advantages</h3>
+<p>Solves complex tasks.</p>
+<p>Processes large datasets.</p>
+<p>Reduces repetitive work.</p>
+<p>Supports faster decisions.</p>
+<p>Automates many activities.</p>
+<h3>7. Disadvantages</h3>
+<p>Can be expensive.</p>
+<p>Depends on data quality.</p>
+<p>May produce incorrect results.</p>
+<p>Requires supervision.</p>
+<p>Can create privacy concerns.</p>
+<h3>8. Applications</h3>
+<p>Healthcare</p>
+<p>Transportation</p>
+<p>Banking</p>
+<p>Robotics</p>
+<p>Agriculture</p>
+<h2 class="question" id="q-7">Q6. Identify different types of AI techniques and apply each to a real-world problem.</h2>
+<h3>1. Introduction</h3>
+<p>AI techniques are methods used by computers to solve problems and make decisions. Each technique is suitable</p>
+<p>for a different type of task.</p>
+<h3>2. Types of AI Techniques</h3>
+<p>Search</p>
+<p>Explores possible choices to find a solution.</p>
+<p>Compares paths or states.</p>
+<p>Example: Finding a route between two places.</p>
+<p>Heuristic Search</p>
+<p>Uses estimates to explore promising options.</p>
+<p>Reduces unnecessary searching.</p>
+<p>Example: Route finding with A* search.</p>
+<p>Machine Learning</p>
+<p>Learns patterns from data.</p>
+<p>Uses these patterns to predict results.</p>
+<p>Example: Predicting house prices.</p>
+<p>Expert Systems</p>
+<p>Uses stored facts and IF–THEN rules.</p>
+<p>Applies rules to solve domain-specific problems.</p>
+<p>Example: Medical decision support.</p>
+<p>Natural Language Processing</p>
+<p>Processes human language.</p>
+<p>Understands text and generates responses.</p>
+<p>Example: A customer-service chatbot.</p>
+<p>Fuzzy Logic</p>
+<p>Handles degrees of truth instead of only true or false.</p>
+<p>Uses rules to make gradual decisions.</p>
+<p>Example: Automatic air-conditioner control.</p>
+<p>Neural Networks</p>
+<p>Learns complex patterns from data.</p>
+<p>Uses connected processing units inspired by the brain.</p>
+<p>Example: Recognizing faces in images.</p>
+<h3>4. Working</h3>
+<p>Identify the problem.</p>
+<p>Select a suitable AI technique.</p>
+<p>Provide the required input, data, or rules.</p>
+<p>Process the information and generate the result.</p>
+<h3>5. Advantages</h3>
+<p>Solves different problems.</p>
+<p>Automates tasks.</p>
+<p>Supports better decisions.</p>
+<p>Saves time.</p>
+<p>Improves predictions.</p>
+<h3>6. Disadvantages</h3>
+<p>Some techniques require large datasets.</p>
+<p>Development can be costly.</p>
+<p>Incorrect input affects results.</p>
+<p>Complex models can be difficult to understand.</p>
+<p>Human supervision may be required.</p>
+<h3>7. Applications</h3>
+<p>Healthcare</p>
+<p>Banking</p>
+<p>Transportation</p>
+<p>Language translation</p>
+<p>Smart home devices</p>
+<h2 class="question" id="q-8">Q. No. 3 – Search and Knowledge Representation</h2>
+<h2 class="question" id="q-9">Q7. Demonstrate Heuristic Search Techniques with an example.</h2>
+<h3>1. Introduction</h3>
+<p>Heuristic Search is an AI technique that uses estimates to find a solution faster. A heuristic function h(n) estimates</p>
+<p>the remaining cost from the current state to the goal.</p>
+<h3>2. Types of Heuristic Search</h3>
+<p>Greedy Best-First Search</p>
+<p>Selects the node with the lowest heuristic value.</p>
+<p>Tries to reach the goal quickly.</p>
+<p>Example: Exploring the city estimated to be nearest to the destination.</p>
+<p>A Search*</p>
+<p>Uses both the cost already travelled and the estimated remaining cost.</p>
+<p>Formula: f(n) = g(n) + h(n).</p>
+<p>Example: Finding a least-cost route.</p>
+<p>Hill Climbing</p>
+<p>Moves toward a better neighboring state.</p>
+<p>Repeats until no better neighbor is found.</p>
+<p>Example: Improving a timetable to reduce clashes.</p>
+<p>Beam Search</p>
+<p>Keeps only a limited number of promising choices.</p>
+<p>Removes less promising choices at each level.</p>
+<p>Example: Finding likely sentence completions.</p>
+<h3>4. Working</h3>
+<p>Start from the initial state.</p>
+<p>Calculate the heuristic value of possible nodes.</p>
+<p>Select the most promising node using the chosen technique.</p>
+<p>Repeat until the goal is reached.</p>
+<h3>5. Example</h3>
+<p>A navigation system estimates the remaining distance to a destination. Greedy search chooses the node with the</p>
+<p>lowest estimated distance, while A* considers both the distance travelled and the estimated distance remaining.</p>
+<h3>6. Advantages</h3>
+<p>Reduces search time in many problems.</p>
+<p>Explores promising paths first.</p>
+<p>Useful for large search spaces.</p>
+<p>A* can find an optimal path under suitable conditions.</p>
+<p>Helps solve complex problems.</p>
+<h3>7. Disadvantages</h3>
+<p>Depends on the quality of estimates.</p>
+<p>Some methods may miss the best solution.</p>
+<p>A* can use a lot of memory.</p>
+<p>Poor estimates waste time.</p>
+<p>Hill climbing may get stuck in local optima.</p>
+<h3>8. Applications</h3>
+<p>Route planning</p>
+<p>Game playing</p>
+<p>Robot navigation</p>
+<p>Puzzle solving</p>
+<p>Scheduling</p>
+<h2 class="question" id="q-10">Q8. Demonstrate Generate-and-Test with appropriate examples.</h2>
+<h3>1. Introduction</h3>
+<p>Generate-and-Test is a simple AI problem-solving technique. It generates a possible solution and checks whether it</p>
+<p>satisfies the required conditions. If it fails, another solution is generated.</p>
+<h3>2. Main Steps</h3>
+<p>Generate</p>
+<p>Produces a possible solution.</p>
+<p>Can generate different answers.</p>
+<p>Example: Trying a number.</p>
+<p>Test</p>
+<p>Checks whether the answer is correct.</p>
+<p>Compares it with the required conditions.</p>
+<p>Rejects answers that fail.</p>
+<p>Accept</p>
+<p>Accepts a solution that satisfies all conditions.</p>
+<p>Stops searching if one solution is enough.</p>
+<p>Returns the correct answer.</p>
+<p>Repeat</p>
+<p>Generates another solution if the previous one fails.</p>
+<p>Continues testing new possibilities.</p>
+<p>Stops when a solution is found or the search ends.</p>
+<h3>4. Working</h3>
+<p>Define the problem and conditions.</p>
+<p>Generate a possible answer.</p>
+<p>Test whether it satisfies the conditions.</p>
+<p>Accept it if correct; otherwise, repeat.</p>
+<h3>5. Example</h3>
+<p>Find a number between 1 and 10 divisible by both 2 and 3.</p>
+<p>Generate 4: Reject because it is not divisible by 3.</p>
+<p>Generate 6: Accept because it is divisible by both.</p>
+<p>The answer is 6.</p>
+<h3>6. Advantages</h3>
+<p>Easy to understand.</p>
+<p>Simple to implement.</p>
+<p>Suitable for small problems.</p>
+<p>Can find a solution when all possibilities are tested.</p>
+<p>Does not require complex reasoning.</p>
+<h3>7. Disadvantages</h3>
+<p>Can be slow for large problems.</p>
+<p>Generates incorrect solutions.</p>
+<p>Uses time and computing resources.</p>
+<p>Requires correct testing conditions.</p>
+<p>May not finish for an unlimited search space.</p>
+<h3>8. Applications</h3>
+<p>Puzzle solving</p>
+<p>Mathematical problems</p>
+<p>Simple scheduling</p>
+<p>Game moves</p>
+<p>Testing possible combinations</p>
+<h2 class="question" id="q-11">Q9. Demonstrate different Knowledge Representation approaches with a real-world</h2>
+<p>example.</p>
+<h3>1. Introduction</h3>
+<p>Knowledge Representation is a method of storing facts, rules, and relationships in a form that a computer can use.</p>
+<p>It helps AI systems reason and solve problems.</p>
+<h3>2. Types of Knowledge Representation</h3>
+<p>Logical Representation</p>
+<p>Represents facts using logical statements.</p>
+<p>Uses conditions to reach conclusions.</p>
+<p>Example: All humans are mortal.</p>
+<p>Semantic Network</p>
+<p>Represents concepts as connected nodes.</p>
+<p>Shows relationships between different concepts.</p>
+<p>Example: A bird is an animal.</p>
+<p>Frames</p>
+<p>Stores information in slots and values.</p>
+<p>Describes the properties of an object.</p>
+<p>Example: A plant frame contains plant name and symptoms.</p>
+<p>Production Rules</p>
+<p>Uses IF–THEN rules.</p>
+<p>Checks conditions before taking action.</p>
+<p>Example: IF leaves have certain spots, THEN check for disease.</p>
+<p>Ontology</p>
+<p>Defines concepts and relationships in a subject.</p>
+<p>Organizes information in a structured form.</p>
+<p>Example: An agricultural ontology connects crops, pests, and diseases.</p>
+<h3>4. Working</h3>
+<p>Collect facts about plants and diseases.</p>
+<p>Store information using suitable representation methods.</p>
+<p>Apply rules and relationships to the symptoms.</p>
+<p>Generate possible causes and advice.</p>
+<h3>5. Example</h3>
+<p>A farmer reports yellow leaves and spots on a crop. The system stores the symptoms in a frame, checks disease</p>
+<p>rules, and connects the crop to possible diseases. It then provides possible advice.</p>
+<h3>6. Advantages</h3>
+<p>Organizes knowledge.</p>
+<p>Supports logical reasoning.</p>
+<p>Makes information easier to retrieve.</p>
+<p>Helps solve specialized problems.</p>
+<p>Allows knowledge to be updated.</p>
+<h3>7. Disadvantages</h3>
+<p>Takes time to build.</p>
+<p>Incorrect facts give wrong results.</p>
+<p>Large knowledge bases become complex.</p>
+<p>Uncertainty may be difficult to represent.</p>
+<p>Expert knowledge may be required.</p>
+<h3>8. Applications</h3>
+<p>Medical systems</p>
+<p>Agriculture</p>
+<p>Robotics</p>
+<p>Customer support</p>
+<p>Knowledge-based systems</p>
+<h2 class="question" id="q-12">Q. No. 4 – Machine Learning</h2>
+<h2 class="question" id="q-13">Q10. Analyze ML Basics and ML Applications with an example.</h2>
+<h3>1. Introduction</h3>
+<p>Machine Learning (ML) is a branch of AI that enables computers to learn patterns from data. It uses these patterns</p>
+<p>to make predictions or decisions.</p>
+<h3>2. Main Concepts</h3>
+<p>Data</p>
+<p>Contains information used by the model.</p>
+<p>Can include numbers, text, or images.</p>
+<p>Good data helps improve learning.</p>
+<p>Features</p>
+<p>Are the important properties of data.</p>
+<p>Help the model identify patterns.</p>
+<p>Example: House size and location.</p>
+<p>Algorithm</p>
+<p>Is a method used to learn from data.</p>
+<p>Finds relationships between input and output.</p>
+<p>Example: Linear regression.</p>
+<p>Model</p>
+<p>Is the result of training an algorithm.</p>
+<p>Uses learned patterns to make predictions.</p>
+<p>Example: A trained house-price predictor.</p>
+<p>Training and Testing</p>
+<p>Training teaches the model using available data.</p>
+<p>Testing checks performance on unseen data.</p>
+<p>It helps identify whether the model predicts correctly.</p>
+<h3>3. Types of Machine Learning</h3>
+<p>Supervised Learning</p>
+<p>Learns from labelled examples.</p>
+<p>Uses known answers during training.</p>
+<p>Example: Spam detection.</p>
+<p>Unsupervised Learning</p>
+<p>Learns patterns from unlabelled data.</p>
+<p>Groups similar data together.</p>
+<p>Example: Customer grouping.</p>
+<p>Reinforcement Learning</p>
+<p>Learns through rewards and penalties.</p>
+<p>Improves its actions through experience.</p>
+<p>Example: A game-playing agent.</p>
+<h3>5. Working</h3>
+<p>Collect and prepare data.</p>
+<p>Select a suitable algorithm.</p>
+<p>Train the model using the data.</p>
+<p>Test the model and use it for new predictions.</p>
+<h3>6. Example</h3>
+<p>A house-price model learns from previous house records. It studies the relationship between size, location, and</p>
+<p>price. It then predicts the price of a new house.</p>
+<h3>7. Advantages</h3>
+<p>Learns patterns from data.</p>
+<p>Automates predictions.</p>
+<p>Processes large datasets.</p>
+<p>Supports decision-making.</p>
+<p>Can improve with suitable training.</p>
+<h3>8. Disadvantages</h3>
+<p>Requires good data.</p>
+<p>Training may take time.</p>
+<p>Biased data creates biased results.</p>
+<p>Some models are difficult to explain.</p>
+<p>Predictions may be incorrect.</p>
+<h3>9. Applications</h3>
+<p>Fraud detection</p>
+<p>House-price prediction</p>
+<p>Medical support</p>
+<p>Recommendation systems</p>
+<p>Image recognition</p>
+<h2 class="question" id="q-14">Q11. Categorize Supervised Learning with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>Supervised Learning is a type of ML that learns from labelled data. Each training example contains input</p>
+<p>information and its correct output.</p>
+<h3>2. Types of Supervised Learning</h3>
+<p>Classification</p>
+<p>Predicts a category or class.</p>
+<p>The output is a label.</p>
+<p>Example: Spam or not spam.</p>
+<p>Regression</p>
+<p>Predicts a numerical value.</p>
+<p>The output is a number.</p>
+<p>Example: Predicting house prices.</p>
+<h3>4. Working</h3>
+<p>Collect labelled training data.</p>
+<p>Train the model using inputs and correct outputs.</p>
+<p>The model learns patterns.</p>
+<p>Use it to predict results for new data.</p>
+<h3>5. Example</h3>
+<p>An email system learns from emails labelled “spam” and “not spam.” It identifies patterns and predicts the</p>
+<p>category of a new email.</p>
+<h3>6. Advantages</h3>
+<p>Learns from known examples.</p>
+<p>Supports classification and prediction.</p>
+<p>Can be tested using labelled data.</p>
+<p>Works for many real-world problems.</p>
+<p>Can provide accurate results with good data.</p>
+<h3>7. Disadvantages</h3>
+<p>Requires labelled data.</p>
+<p>Labelling may be costly.</p>
+<p>May overfit training data.</p>
+<p>Bias affects results.</p>
+<p>Predictions are not always correct.</p>
+<h3>8. Applications</h3>
+<p>Spam detection</p>
+<p>House-price prediction</p>
+<p>Disease classification</p>
+<p>Credit-risk assessment</p>
+<p>Weather prediction</p>
+<h2 class="question" id="q-15">Q12. Demonstrate Means-Ends Analysis with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>Means-Ends Analysis is an AI problem-solving technique that compares the current state with the goal state. It</p>
+<p>finds the difference and selects actions to reduce it.</p>
+<h3>2. Main Concepts</h3>
+<p>Current State</p>
+<p>Represents the present situation.</p>
+<p>Shows where the problem starts.</p>
+<p>Example: A student is at home.</p>
+<p>Goal State</p>
+<p>Represents the desired result.</p>
+<p>Defines what the system must achieve.</p>
+<p>Example: The student reaches college.</p>
+<p>Difference</p>
+<p>Identifies the gap between the current and goal states.</p>
+<p>Helps determine what must change.</p>
+<p>Example: The student has not travelled to college.</p>
+<p>Operators or Actions</p>
+<p>Are actions that reduce the difference.</p>
+<p>Can be selected and applied step by step.</p>
+<p>Example: Select transport and travel to college.</p>
+<h3>4. Working</h3>
+<p>Define the current state and goal.</p>
+<p>Identify the difference between them.</p>
+<p>Select an action that reduces the difference.</p>
+<p>Repeat until the goal is achieved.</p>
+<h3>5. Example</h3>
+<p>A student wants to reach college from home. The system identifies the location difference, selects a suitable route</p>
+<p>and transport, and plans the steps needed to reach college.</p>
+<h3>6. Advantages</h3>
+<p>Breaks problems into smaller steps.</p>
+<p>Focuses on the goal.</p>
+<p>Reduces unnecessary actions.</p>
+<p>Supports planning.</p>
+<p>Is easy to understand.</p>
+<h3>7. Disadvantages</h3>
+<p>Requires a clear goal.</p>
+<p>Actions may not work as expected.</p>
+<p>Depends on correct information.</p>
+<p>Complex problems may be difficult.</p>
+<p>May require backtracking.</p>
+<h3>8. Applications</h3>
+<p>Robot planning</p>
+<p>Route planning</p>
+<p>Puzzle solving</p>
+<p>Automated planning</p>
+<p>AI problem-solving</p>
+<h2 class="question" id="q-16">Q13. Illustrate Fuzzy Logic with a suitable example.</h2>
+<h3>1. Introduction</h3>
+<p>Fuzzy Logic is an AI technique that handles partial truth instead of only true or false. Its membership values range</p>
+<p>from 0 to 1 and help make gradual decisions.</p>
+<h3>2. Main Components</h3>
+<p>Fuzzification</p>
+<p>Converts a numerical input into fuzzy values.</p>
+<p>Determines membership in sets such as cool, warm, and hot.</p>
+<p>Example: Classifying room temperature.</p>
+<p>Rule Base</p>
+<p>Stores IF–THEN rules.</p>
+<p>Defines how the system should respond.</p>
+<p>Example: IF temperature is hot, THEN fan speed is high.</p>
+<p>Inference Engine</p>
+<p>Applies the stored fuzzy rules.</p>
+<p>Combines the results of the rules.</p>
+<p>Determines the required output.</p>
+<p>Defuzzification</p>
+<p>Converts the fuzzy output into a numerical value.</p>
+<p>Produces a practical control decision.</p>
+<p>Example: Setting the fan to a particular speed.</p>
+<h3>4. Working</h3>
+<p>Take the room temperature as input.</p>
+<p>Identify its fuzzy membership values.</p>
+<p>Apply the relevant IF–THEN rules.</p>
+<p>Convert the result into a fan-speed value.</p>
+<h3>5. Example</h3>
+<p>An automatic air conditioner uses fuzzy logic. When the room is cool, the fan runs slowly; when warm, it runs at</p>
+<p>medium speed; and when hot, it runs at high speed.</p>
+<h3>6. Advantages</h3>
+<p>Handles uncertain information.</p>
+<p>Supports gradual decisions.</p>
+<p>Uses simple rules.</p>
+<p>Works without an exact mathematical model in some cases.</p>
+<p>Is useful for automatic control.</p>
+<h3>7. Disadvantages</h3>
+<p>Requires suitable rules.</p>
+<p>Membership values can be subjective.</p>
+<p>Many rules increase complexity.</p>
+<p>Does not automatically learn.</p>
+<p>May not give the best result in every situation.</p>
+<h3>8. Applications</h3>
+<p>Air conditioners</p>
+<p>Washing machines</p>
+<p>Traffic control</p>
+<p>Industrial automation</p>
+<p>Vehicle control</p>
+<h2 class="question" id="q-17">Q14. Explain Bayes&#x27; Theorem with an appropriate example.</h2>
+<h3>1. Introduction</h3>
+<p>Bayes&#x27; Theorem calculates the probability of an event using prior information and new evidence. It helps update</p>
+<p>our understanding when new information becomes available.</p>
+<p>Main Terms</p>
+<p>Prior Probability</p>
+<p>Represents the probability before new evidence.</p>
+<p>Uses previously available information.</p>
+<p>Example: The percentage of people who have a disease.</p>
+<p>Likelihood</p>
+<p>Represents the probability of observing evidence when an event is true.</p>
+<p>Measures how well the evidence fits the event.</p>
+<p>Example: The chance of a positive test in a person with the disease.</p>
+<p>Evidence</p>
+<p>Represents the information that has been observed.</p>
+<p>May support more than one possible explanation.</p>
+<p>Example: Receiving a positive test result.</p>
+<p>Posterior Probability</p>
+<p>Represents the updated probability after observing evidence.</p>
+<p>Combines prior probability and likelihood.</p>
+<p>Helps estimate how likely the event is now.</p>
+<h3>3. Formula</h3>
+<p>P(A | B) = [ P(B | A) × P(A) ] / P(B)</p>
+<h3>5. Working</h3>
+<p>Find the prior probability.</p>
+<p>Calculate the likelihood of the evidence.</p>
+<p>Find the total probability of the evidence.</p>
+<p>Apply Bayes&#x27; formula to calculate the updated probability.</p>
+<h3>6. Example</h3>
+<p>Suppose 1% of people have a disease. A test detects 90% of people who have it, and 5% of people without the</p>
+<p>disease receive a false-positive result.</p>
+<p>P(D | +) = [ 0.90 (0.01) ] / [ 0.90 (0.01) + 0.05 (0.99) ]</p>
+<p>= 0.009 / 0.0585 ≈ 15.4%</p>
+<p>Therefore, the probability of having the disease after a positive result is approximately 15.4%, under these</p>
+<p>assumptions.</p>
+<h3>7. Advantages</h3>
+<p>Updates probabilities with new evidence.</p>
+<p>Helps decision-making.</p>
+<p>Uses prior knowledge.</p>
+<p>Supports predictions.</p>
+<p>Handles uncertainty mathematically.</p>
+<h3>8. Disadvantages</h3>
+<p>Requires probability estimates.</p>
+<p>Incorrect assumptions affect results.</p>
+<p>Complex calculations may be difficult.</p>
+<p>Poor evidence produces unreliable results.</p>
+<p>Does not guarantee a correct decision.</p>
+<h3>9. Applications</h3>
+<p>Medical testing</p>
+<p>Spam filtering</p>
+<p>Weather forecasting</p>
+<p>Fraud detection</p>
+<p>Risk analysis</p>
+<h2 class="question" id="q-18">Q15. Demonstrate Probability with an example.</h2>
+<h3>1. Introduction</h3>
+<p>Probability measures how likely an event is to happen. Its value ranges from 0 to 1, where 0 means impossible</p>
+<p>and 1 means certain.</p>
+<h3>2. Types of Probability</h3>
+<p>Theoretical Probability</p>
+<p>Uses possible outcomes to calculate probability.</p>
+<p>Assumes outcomes are equally likely.</p>
+<p>Example: Getting heads on a fair coin.</p>
+<p>Experimental Probability</p>
+<p>Uses actual results from repeated experiments.</p>
+<p>Calculated using observed frequencies.</p>
+<p>Example: Counting heads in 100 coin tosses.</p>
+<p>Conditional Probability</p>
+<p>Calculates the probability of an event given another event.</p>
+<p>Uses information about a known condition.</p>
+<p>Example: Probability of rain given cloudy weather.</p>
+<p>Joint Probability</p>
+<p>Calculates the probability that two events happen together.</p>
+<p>Considers both events at the same time.</p>
+<p>Example: Probability of drawing a red card and an ace.</p>
+<h3>3. Formula</h3>
+<p>P(E) = Favourable Outcomes / Total Outcomes</p>
+<h3>5. Working</h3>
+<p>Identify the experiment and event.</p>
+<p>Count all possible outcomes.</p>
+<p>Count the favourable outcomes.</p>
+<p>Divide favourable outcomes by total outcomes.</p>
+<h3>6. Example</h3>
+<p>A fair coin has two possible outcomes: heads and tails.</p>
+<p>P(Heads) = 1/2 = 0.5 = 50%</p>
+<p>Therefore, the probability of getting heads is 50%.</p>
+<h3>7. Advantages</h3>
+<p>Measures uncertainty.</p>
+<p>Supports decision-making.</p>
+<p>Helps predict possible outcomes.</p>
+<p>Supports statistical analysis.</p>
+<p>Helps assess risk.</p>
+<h3>8. Disadvantages</h3>
+<p>Does not guarantee an outcome.</p>
+<p>Depends on assumptions.</p>
+<p>Real-world probabilities may be difficult to calculate.</p>
+<p>Limited data can produce unreliable estimates.</p>
+<p>Can be misunderstood.</p>
+<h3>9. Applications</h3>
+<p>Weather forecasting</p>
+<p>Medical research</p>
+<p>Insurance</p>
+<p>Games</p>
+<p>Machine learning</p>
+<p>Business risk analysis</p></div>
+<p class="note">Select text and press Ctrl+C (Windows) or Cmd+C (Mac) to copy. Use “Print / Save PDF” to save a PDF copy.</p></main>
+<script>
+document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.toLowerCase().trim();const hs=[...document.querySelectorAll('#content h2.question')];hs.forEach(h=>{let cur=h,g=[h];while(cur.nextElementSibling&&!cur.nextElementSibling.matches('h2.question')){cur=cur.nextElementSibling;g.push(cur)}const ok=!q||g.some(x=>x.textContent.toLowerCase().includes(q));g.forEach(x=>x.classList.toggle('hidden',!ok))})});
+document.getElementById('copyAll').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('content').innerText);alert('All text copied!')}catch(e){alert('Select the text and press Ctrl+C.')}});document.getElementById('print').addEventListener('click',()=>window.print());
+</script></body></html>
